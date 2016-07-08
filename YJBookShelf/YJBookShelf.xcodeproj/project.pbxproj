@@ -14,6 +14,7 @@
 		21F693201D2F77D900CCF3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F6931F1D2F77D900CCF3CD /* Assets.xcassets */; };
 		21F693231D2F77D900CCF3CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F693211D2F77D900CCF3CD /* LaunchScreen.storyboard */; };
 		21F6932E1D2F77D900CCF3CD /* YJBookShelfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F6932D1D2F77D900CCF3CD /* YJBookShelfTests.m */; };
+		21F6933F1D2F791900CCF3CD /* YJBookShelfCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F6933E1D2F791900CCF3CD /* YJBookShelfCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		21F693291D2F77D900CCF3CD /* YJBookShelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJBookShelfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F6932D1D2F77D900CCF3CD /* YJBookShelfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJBookShelfTests.m; sourceTree = "<group>"; };
 		21F6932F1D2F77D900CCF3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F6933D1D2F791900CCF3CD /* YJBookShelfCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBookShelfCollectionView.h; sourceTree = "<group>"; };
+		21F6933E1D2F791900CCF3CD /* YJBookShelfCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBookShelfCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		21F693071D2F77D900CCF3CD = {
 			isa = PBXGroup;
 			children = (
+				21F6933C1D2F791900CCF3CD /* Source */,
 				21F693121D2F77D900CCF3CD /* YJBookShelf */,
 				21F6932C1D2F77D900CCF3CD /* YJBookShelfTests */,
 				21F693111D2F77D900CCF3CD /* Products */,
@@ -109,6 +113,16 @@
 				21F6932F1D2F77D900CCF3CD /* Info.plist */,
 			);
 			path = YJBookShelfTests;
+			sourceTree = "<group>";
+		};
+		21F6933C1D2F791900CCF3CD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				21F6933D1D2F791900CCF3CD /* YJBookShelfCollectionView.h */,
+				21F6933E1D2F791900CCF3CD /* YJBookShelfCollectionView.m */,
+			);
+			name = Source;
+			path = ../Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F6931B1D2F77D900CCF3CD /* ViewController.m in Sources */,
+				21F6933F1D2F791900CCF3CD /* YJBookShelfCollectionView.m in Sources */,
 				21F693181D2F77D900CCF3CD /* AppDelegate.m in Sources */,
 				21F693151D2F77D900CCF3CD /* main.m in Sources */,
 			);
@@ -343,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YJBookShelf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ichano.YJBookShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YJBookShelf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ichano.YJBookShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
