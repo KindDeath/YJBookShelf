@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21F693151D2F77D900CCF3CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F693141D2F77D900CCF3CD /* main.m */; };
+		21F693181D2F77D900CCF3CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F693171D2F77D900CCF3CD /* AppDelegate.m */; };
+		21F6931B1D2F77D900CCF3CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F6931A1D2F77D900CCF3CD /* ViewController.m */; };
+		21F6931E1D2F77D900CCF3CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6931C1D2F77D900CCF3CD /* Main.storyboard */; };
+		21F693201D2F77D900CCF3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F6931F1D2F77D900CCF3CD /* Assets.xcassets */; };
+		21F693231D2F77D900CCF3CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F693211D2F77D900CCF3CD /* LaunchScreen.storyboard */; };
+		21F6932E1D2F77D900CCF3CD /* YJBookShelfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F6932D1D2F77D900CCF3CD /* YJBookShelfTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21F6932A1D2F77D900CCF3CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F693081D2F77D900CCF3CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F6930F1D2F77D900CCF3CD;
+			remoteInfo = YJBookShelf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21F693101D2F77D900CCF3CD /* YJBookShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJBookShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F693141D2F77D900CCF3CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21F693161D2F77D900CCF3CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21F693171D2F77D900CCF3CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21F693191D2F77D900CCF3CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21F6931A1D2F77D900CCF3CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21F6931D1D2F77D900CCF3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21F6931F1D2F77D900CCF3CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21F693221D2F77D900CCF3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21F693241D2F77D900CCF3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F693291D2F77D900CCF3CD /* YJBookShelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJBookShelfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F6932D1D2F77D900CCF3CD /* YJBookShelfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJBookShelfTests.m; sourceTree = "<group>"; };
+		21F6932F1D2F77D900CCF3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F6930D1D2F77D900CCF3CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F693261D2F77D900CCF3CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F693071D2F77D900CCF3CD = {
+			isa = PBXGroup;
+			children = (
+				21F693121D2F77D900CCF3CD /* YJBookShelf */,
+				21F6932C1D2F77D900CCF3CD /* YJBookShelfTests */,
+				21F693111D2F77D900CCF3CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21F693111D2F77D900CCF3CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F693101D2F77D900CCF3CD /* YJBookShelf.app */,
+				21F693291D2F77D900CCF3CD /* YJBookShelfTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F693121D2F77D900CCF3CD /* YJBookShelf */ = {
+			isa = PBXGroup;
+			children = (
+				21F693161D2F77D900CCF3CD /* AppDelegate.h */,
+				21F693171D2F77D900CCF3CD /* AppDelegate.m */,
+				21F693191D2F77D900CCF3CD /* ViewController.h */,
+				21F6931A1D2F77D900CCF3CD /* ViewController.m */,
+				21F6931C1D2F77D900CCF3CD /* Main.storyboard */,
+				21F6931F1D2F77D900CCF3CD /* Assets.xcassets */,
+				21F693211D2F77D900CCF3CD /* LaunchScreen.storyboard */,
+				21F693241D2F77D900CCF3CD /* Info.plist */,
+				21F693131D2F77D900CCF3CD /* Supporting Files */,
+			);
+			path = YJBookShelf;
+			sourceTree = "<group>";
+		};
+		21F693131D2F77D900CCF3CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F693141D2F77D900CCF3CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21F6932C1D2F77D900CCF3CD /* YJBookShelfTests */ = {
+			isa = PBXGroup;
+			children = (
+				21F6932D1D2F77D900CCF3CD /* YJBookShelfTests.m */,
+				21F6932F1D2F77D900CCF3CD /* Info.plist */,
+			);
+			path = YJBookShelfTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21F6930F1D2F77D900CCF3CD /* YJBookShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F693321D2F77D900CCF3CD /* Build configuration list for PBXNativeTarget "YJBookShelf" */;
+			buildPhases = (
+				21F6930C1D2F77D900CCF3CD /* Sources */,
+				21F6930D1D2F77D900CCF3CD /* Frameworks */,
+				21F6930E1D2F77D900CCF3CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJBookShelf;
+			productName = YJBookShelf;
+			productReference = 21F693101D2F77D900CCF3CD /* YJBookShelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21F693281D2F77D900CCF3CD /* YJBookShelfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F693351D2F77D900CCF3CD /* Build configuration list for PBXNativeTarget "YJBookShelfTests" */;
+			buildPhases = (
+				21F693251D2F77D900CCF3CD /* Sources */,
+				21F693261D2F77D900CCF3CD /* Frameworks */,
+				21F693271D2F77D900CCF3CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F6932B1D2F77D900CCF3CD /* PBXTargetDependency */,
+			);
+			name = YJBookShelfTests;
+			productName = YJBookShelfTests;
+			productReference = 21F693291D2F77D900CCF3CD /* YJBookShelfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21F693081D2F77D900CCF3CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YJ;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GYJ;
+				TargetAttributes = {
+					21F6930F1D2F77D900CCF3CD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					21F693281D2F77D900CCF3CD = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 21F6930F1D2F77D900CCF3CD;
+					};
+				};
+			};
+			buildConfigurationList = 21F6930B1D2F77D900CCF3CD /* Build configuration list for PBXProject "YJBookShelf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21F693071D2F77D900CCF3CD;
+			productRefGroup = 21F693111D2F77D900CCF3CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21F6930F1D2F77D900CCF3CD /* YJBookShelf */,
+				21F693281D2F77D900CCF3CD /* YJBookShelfTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F6930E1D2F77D900CCF3CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F693231D2F77D900CCF3CD /* LaunchScreen.storyboard in Resources */,
+				21F693201D2F77D900CCF3CD /* Assets.xcassets in Resources */,
+				21F6931E1D2F77D900CCF3CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F693271D2F77D900CCF3CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F6930C1D2F77D900CCF3CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F6931B1D2F77D900CCF3CD /* ViewController.m in Sources */,
+				21F693181D2F77D900CCF3CD /* AppDelegate.m in Sources */,
+				21F693151D2F77D900CCF3CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F693251D2F77D900CCF3CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F6932E1D2F77D900CCF3CD /* YJBookShelfTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21F6932B1D2F77D900CCF3CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F6930F1D2F77D900CCF3CD /* YJBookShelf */;
+			targetProxy = 21F6932A1D2F77D900CCF3CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21F6931C1D2F77D900CCF3CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F6931D1D2F77D900CCF3CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21F693211D2F77D900CCF3CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F693221D2F77D900CCF3CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21F693301D2F77D900CCF3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21F693311D2F77D900CCF3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21F693331D2F77D900CCF3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YJBookShelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichano.YJBookShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21F693341D2F77D900CCF3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YJBookShelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichano.YJBookShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21F693361D2F77D900CCF3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YJBookShelfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichano.YJBookShelfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJBookShelf.app/YJBookShelf";
+			};
+			name = Debug;
+		};
+		21F693371D2F77D900CCF3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YJBookShelfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichano.YJBookShelfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJBookShelf.app/YJBookShelf";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21F6930B1D2F77D900CCF3CD /* Build configuration list for PBXProject "YJBookShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F693301D2F77D900CCF3CD /* Debug */,
+				21F693311D2F77D900CCF3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F693321D2F77D900CCF3CD /* Build configuration list for PBXNativeTarget "YJBookShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F693331D2F77D900CCF3CD /* Debug */,
+				21F693341D2F77D900CCF3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21F693351D2F77D900CCF3CD /* Build configuration list for PBXNativeTarget "YJBookShelfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F693361D2F77D900CCF3CD /* Debug */,
+				21F693371D2F77D900CCF3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21F693081D2F77D900CCF3CD /* Project object */;
+}
